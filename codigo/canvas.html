@@ -4,7 +4,12 @@
 		<title>EJERCICIO canvas</title>
 		
 		<style>
-		
+			#micanvas {
+				border: 1px solid #aaa;
+				-moz-box-shadow: 3px 3px 8px #222;
+				-webkit-box-shadow: 3px 3px 8px #222;
+				box-shadow: 3px 3px 8px #222;
+			}	
 		</style>
 	</head>
 
@@ -18,8 +23,28 @@
 		
 		</div>
 		<script>
-		// Aquí escribimos las instrucciones de código
+			window.onload = function() {
+				//Inicializacion de variables
+				var canvas = document.getElementById("miCanvas");
+				var context = canvas.getContext("2d");
+			
+				//dibujamos
+				context.strokeStyle = "#000000";
+				context.strokeRect(20, 30, 100, 50); //strokeRect(posX, posY, ancho, alto)
+				
+				//dibujamos lÃneas
+				context.moveTo(20, 10); //Donde empieza
+				context.lineTo(130, 100); //Donde acaba
+				context.lineWidth = 4; //Ancho linea
+				context.strokeStyle = "blue"; //Color
+				context.stroke(); //Para que lo pinte
 		
+				//dibujamos letras
+				context.font = "Bold 130pt Arial";
+				context.fillStyle = "white";
+				context.fillText("H", 96, 174);
+				context.fillText("R", 154, 224);
+			}	
 		</script>
 	</body>
 
