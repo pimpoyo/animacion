@@ -1,26 +1,37 @@
 <html>
-	
 	<head>
 		<meta charset="UTF-8">
 		<title>EJERCICIO</title>
-		
 		<style>
-		
+			.cajamovil {
+				background-color: fuchsia;
+				width: 100px;
+				height: 100px;
+				line-height: 50px;
+				border: 1px;
+				cursor: pointer;
+				// position: relative;
+				border-radius: 10px;
+				text-align: center;
+			}	
 		</style>
-		
+
 		<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
 		<script type="text/javascript" src="jquery-ui.min.js"></script>
-		
+		<script type="text/javascript" src="jquery.ui.touch-punch.min.js"></script> //para que sea manejable en dispositivo mÃvil
 
-	
 	</head>
-
 	<body>
-			
-		<h1></h1>
-		
+		<div class="cajamovil" id="caja1">caja 1</div>	
+		<div class="cajamovil" id="caja2">caja 2</div>	
+		<div class="cajamovil" id="caja3">caja 3</div>	
+	
 		<script>
-		// Aquí escribimos las instrucciones de código
+			$(document).ready(function() {
+				$(".cajamovil").draggable({
+					stack:"div"
+				});
+			});		
 		
 		</script>
 	</body>
