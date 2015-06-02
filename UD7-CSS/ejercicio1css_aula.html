@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>EJERCICIO 1 - usando transform</title>
+	</head>
+		<style>
+	body {
+		margin: 50px;
+		background: #bbdce4;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	
+	 .caja { float: left; 
+		 		margin: 30px; 
+		 		width: 100px; 
+		 		height: 60px; 
+		 		border: 2px solid green; 
+		 		background-color: #fff; 
+		 		line-height: 60px; 
+		 		text-align: center;
+				transition: all 1s ease-in-out;
+				-webkit-transition: all 1s ease-in-out;
+				-moz-transition: all 1s ease-in-out;
+	}
+	
+	
+	#caja1:hover {
+		transform: translate(10px, 0);		
+		-webkit-transform: translate(10px, 0);		
+		-moz-transform: translate(10px, 0);		
+	}
+	#caja2:hover {
+		transform: rotate(30deg);		
+		-webkit-transform: rotate(30deg);		
+		-moz-transform: rotate(30deg);		
+	}	
+	#caja3:hover {
+		transform: translate(-30px, 10px);	
+		-webkit-transform: translate(-30px, 10px);	
+		-moz-transform: translate(-30px, 10px);	
+	}	
+	#caja4:hover {
+		transform: scale(2);	
+		-webkit-transform: scale(2);	
+		-moz-transform: scale(2);	
+	}	
+	
+		</style>
+		
+	
+	<body>
+			
+		<div class="caja" id="caja1">CAJA 1</div>
+		<div class="caja" id="caja2">CAJA 2</div>
+		<div class="caja" id="caja3">CAJA 3</div>
+		<div class="caja" id="caja4">CAJA 4</div> 
+		
+		<script>
+		// Aquí escribimos las instrucciones de código
+		
+		</script>
+	</body>
+
+</html>
