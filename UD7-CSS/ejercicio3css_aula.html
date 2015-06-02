@@ -1,53 +1,48 @@
 <html>
-	
 	<head>
 		<meta charset="UTF-8">
 		<title>EJERCICIO</title>
-		
 	</head>
 		<style>
-		
-	body {
-		
-		margin: 50px;
-		background: #bbdce4;
-		font-family: sans-serif;
-		text-align: justify;
-		
-	}
-	
-	 .caja { 	float: left; 
-		 		margin: 10px; 
-		 		padding: 20px;
-		 		width: 400px; 
-		 		height: 200; 
-		 		border: 2px solid #214fb0; 
-		 		background-color: #fff; 
-
-
-	}
-	
-	#caja1:hover {
-	
-
-		
-	}
-		</style>
-		
-	
-	<body>
+			body {
+				margin: 50px;
+				background: #bbdce4;
+				font-family: sans-serif;
+				text-align: justify;
+			}
 			
+			 .caja {
+			 	float: left; 
+				margin: 10px; 
+				padding: 20px;
+				width: 400px; 
+				height: 200; 
+				border: 2px solid #214fb0; 
+				background-color: #fff; 
+				transition: all 1s ease-in-out;
+				-webkit-transition: all 1s ease-in-out;
+				-moz-transition: all 1s ease-in-out;
+			}
+			
+			#caja1:hover {	
+				transform: translate(10px, 0) rotate(360deg) translate(-30px, 10px) scale(2);	
+				-webkit-transform: translate(10px, 0) rotate(360deg) translate(-30px, 10px) scale(2);	
+				-moz-transform: translate(10px, 0) rotate(360deg) translate(-30px, 10px) scale(2);	
+				background-color: #ffffaa; 
+			}
+		</style>
+	<body>
 		<div class="caja" id="caja1">Aspectos que hemos visto en ANIMACIÓN WEB:
 			<ul>
-			<li type="disc">Animación web.</li>			
-			<li type="disc">Infografías interactivas.</li>
-			<li type="disc">Animación en Publicidad: banners.</li>
-			<li type="disc">Animación con SLIDERS.</li>
-			<li type="disc">Animación con javascript y jQuery.</li>
-			<li type="disc">Animación con propiedades físicas.</li>
-			<li type="disc">Animación con CSS3.</li>
-			<li type="disc">Recursos.</li>
-			<li type="disc">Simulación y prototipados.</li>
+				<li type="disc">Animación web.</li>			
+				<li type="disc">Infografías interactivas.</li>
+				<li type="disc">Animación en Publicidad: banners.</li>
+				<li type="disc">Animación con SLIDERS.</li>
+				<li type="disc">Animación con javascript y jQuery.</li>
+				<li type="disc">Animación con propiedades físicas.</li>
+				<li type="disc">Animación con CSS3.</li>
+				<li type="disc">Recursos.</li>
+				<li type="disc">Simulación y prototipados.</li>
 			</ul>
 		</div>
 		<div class="caja" id="caja2">CAJA 2</div>
@@ -59,5 +54,4 @@
 		
 		</script>
 	</body>
-
 </html>
