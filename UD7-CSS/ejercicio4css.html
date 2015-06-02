@@ -3,58 +3,54 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>EJERCICIO</title>
-		
+		<style>
+			#escenario {
+				padding: 10px;
+				margin: 10px;
+				position: relative;
+				width: 700px;
+				height: 100px;
+				background: none repeat scroll 0% 0% #EFEFEF;
+				text-align: right;
+			}
+
+			#caja1 {
+				position: absolute;
+				width: 100px;
+				height: 100px;
+				border: 1px solid #666;
+				background: none repeat scroll 0% 0% #F00;
+				color: #FFF;	
+			}
+
+			#caja2 {
+			    position: absolute;
+			    left: 120px;
+			    width: 100px;
+			    height: 100px;
+			    border: 1px solid #666;
+			    background: none repeat scroll 0% 0% #00F;
+			    transition: all 1s ease-in-out 0s;
+			    color: #FFF;
+			}
+			
+			/*Lo que hace es que cuando se hace hover sobre caja1, lo que hace es actuar sobre caja2*/
+			#caja1:hover + #caja2 { 
+				-webkit-transform: rotate(360deg); 
+				-moz-transform: rotate(360deg); 
+				-o-transform: rotate(360deg); 
+				-ms-transform: rotate(360deg); 
+				transform: rotate(360deg); 
+				left: calc(100% - 110px); 
+				background: yellow; 
+			}
+		</style>
 	</head>
-	<style>
-		
-	#escenario {
-		padding: 10px;
-		margin: 10px;
-		position: relative;
-		width: 700px;
-		height: 100px;
-		background: none repeat scroll 0% 0% #EFEFEF;
-		text-align: right;
-		}
-	#caja1 {
-		position: absolute;
-		width: 100px;
-		height: 100px;
-		border: 1px solid #666;
-		background: none repeat scroll 0% 0% #F00;
-		color: #FFF;	
-		}
-	#caja2 {
-	    position: absolute;
-	    left: 120px;
-	    width: 100px;
-	    height: 100px;
-	    border: 1px solid #666;
-	    background: none repeat scroll 0% 0% #00F;
-	    transition: all 1s ease-in-out 0s;
-	    color: #FFF;
-		}
-	
-	#caja1:hover + #caja2 { 
-		-webkit-transform: rotate(360deg); 
-		-moz-transform: rotate(360deg); 
-		-o-transform: rotate(360deg); 
-		-ms-transform: rotate(360deg); 
-		transform: rotate(360deg); 
-		left: calc(100% - 110px); 
-		background: yellow; 
-		}
-		
-	</style>
-	
-	
 	<body>
-		
-	<div id="escenario"><div id="caja1"></div>	<div id="caja2"></div></div>
+		<div id="escenario"><div id="caja1"></div>	<div id="caja2"></div></div>
 		<script>
 		// Aquí escribimos las instrucciones de código
 		
 		</script>
 	</body>
-
 </html>
