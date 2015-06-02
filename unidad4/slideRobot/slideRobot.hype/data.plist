@@ -13,8 +13,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierAnimated</string>
 		<string>kPropertiesMenuItemIdentifierPosition</string>
+		<string>kPropertiesMenuItemIdentifierAnimated</string>
 	</array>
 	<key>documentVersion</key>
 	<string>458</string>
@@ -29,7 +29,7 @@
 	<key>guidesAreVisible</key>
 	<true/>
 	<key>lastCheckDate</key>
-	<date>2015-05-12T11:24:23Z</date>
+	<date>2015-06-02T09:33:02Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -50,32 +50,9 @@
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {135, 912}}</string>
+					<string>{{0, 0}, {1098, 912}}</string>
 					<key>identifier</key>
-					<string>container 32</string>
-					<key>isCustomizableViewContainer</key>
-					<true/>
-					<key>isCustomizableViewWrapper</key>
-					<true/>
-					<key>isVertical</key>
-					<true/>
-					<key>subviews</key>
-					<array>
-						<dict>
-							<key>frame</key>
-							<string>{{0, 0}, {135, 912}}</string>
-							<key>identifier</key>
-							<string>sceneSelectorCustomizableContainer</string>
-							<key>isCustomizableViewContainer</key>
-							<false/>
-						</dict>
-					</array>
-				</dict>
-				<dict>
-					<key>frame</key>
-					<string>{{136, 0}, {1233, 912}}</string>
-					<key>identifier</key>
-					<string>container 33</string>
+					<string>container 26</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -86,45 +63,106 @@
 					<array>
 						<dict>
 							<key>frame</key>
+							<string>{{0, 0}, {135, 912}}</string>
+							<key>identifier</key>
+							<string>container 32</string>
+							<key>isCustomizableViewContainer</key>
+							<true/>
+							<key>isCustomizableViewWrapper</key>
+							<true/>
+							<key>isVertical</key>
+							<true/>
+							<key>subviews</key>
+							<array>
+								<dict>
+									<key>frame</key>
+									<string>{{0, 0}, {135, 912}}</string>
+									<key>identifier</key>
+									<string>sceneSelectorCustomizableContainer</string>
+									<key>isCustomizableViewContainer</key>
+									<false/>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>frame</key>
 							<string>{{136, 0}, {962, 912}}</string>
 							<key>identifier</key>
-							<string>container 5</string>
+							<string>container 33</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
 							<false/>
 							<key>isVertical</key>
-							<false/>
+							<true/>
 							<key>subviews</key>
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 0}, {962, 292.40234375}}</string>
+									<string>{{136, 0}, {691, 912}}</string>
 									<key>identifier</key>
-									<string>container 4</string>
+									<string>container 5</string>
 									<key>isCustomizableViewContainer</key>
 									<true/>
 									<key>isCustomizableViewWrapper</key>
-									<true/>
+									<false/>
 									<key>isVertical</key>
-									<true/>
+									<false/>
 									<key>subviews</key>
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {962, 292.40234375}}</string>
+											<string>{{136, 0}, {691, 292.40234375}}</string>
 											<key>identifier</key>
-											<string>timelineCustomizableContainer</string>
+											<string>container 4</string>
 											<key>isCustomizableViewContainer</key>
-											<false/>
+											<true/>
+											<key>isCustomizableViewWrapper</key>
+											<true/>
+											<key>isVertical</key>
+											<true/>
+											<key>subviews</key>
+											<array>
+												<dict>
+													<key>frame</key>
+													<string>{{136, 0}, {691, 292}}</string>
+													<key>identifier</key>
+													<string>timelineCustomizableContainer</string>
+													<key>isCustomizableViewContainer</key>
+													<false/>
+												</dict>
+											</array>
+										</dict>
+										<dict>
+											<key>frame</key>
+											<string>{{136, 293.40234375}, {691, 618.59765625}}</string>
+											<key>identifier</key>
+											<string>container 3</string>
+											<key>isCustomizableViewContainer</key>
+											<true/>
+											<key>isCustomizableViewWrapper</key>
+											<true/>
+											<key>isVertical</key>
+											<true/>
+											<key>subviews</key>
+											<array>
+												<dict>
+													<key>frame</key>
+													<string>{{136, 293}, {691, 619}}</string>
+													<key>identifier</key>
+													<string>sceneEditorCustomizableContainer</string>
+													<key>isCustomizableViewContainer</key>
+													<false/>
+												</dict>
+											</array>
 										</dict>
 									</array>
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 293.40234375}, {962, 618.59765625}}</string>
+									<string>{{828, 0}, {270, 912}}</string>
 									<key>identifier</key>
-									<string>container 3</string>
+									<string>container 6</string>
 									<key>isCustomizableViewContainer</key>
 									<true/>
 									<key>isCustomizableViewWrapper</key>
@@ -135,9 +173,9 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 293.40234375}, {962, 618.59765625}}</string>
+											<string>{{828, 0}, {270, 912}}</string>
 											<key>identifier</key>
-											<string>sceneEditorCustomizableContainer</string>
+											<string>inspectorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
 											<false/>
 										</dict>
@@ -145,28 +183,28 @@
 								</dict>
 							</array>
 						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>frame</key>
+					<string>{{1099, 0}, {270, 912}}</string>
+					<key>identifier</key>
+					<string>container 25</string>
+					<key>isCustomizableViewContainer</key>
+					<true/>
+					<key>isCustomizableViewWrapper</key>
+					<true/>
+					<key>isVertical</key>
+					<true/>
+					<key>subviews</key>
+					<array>
 						<dict>
 							<key>frame</key>
 							<string>{{1099, 0}, {270, 912}}</string>
 							<key>identifier</key>
-							<string>container 6</string>
+							<string>resourcesCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
-							<true/>
-							<key>isCustomizableViewWrapper</key>
-							<true/>
-							<key>isVertical</key>
-							<true/>
-							<key>subviews</key>
-							<array>
-								<dict>
-									<key>frame</key>
-									<string>{{1099, 0}, {270, 912}}</string>
-									<key>identifier</key>
-									<string>inspectorCustomizableContainer</string>
-									<key>isCustomizableViewContainer</key>
-									<false/>
-								</dict>
-							</array>
+							<false/>
 						</dict>
 					</array>
 				</dict>
@@ -183,7 +221,7 @@
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
-		<false/>
+		<true/>
 		<key>showSceneSelectorView</key>
 		<true/>
 		<key>showSceneVariantSelectorView</key>
@@ -282,12 +320,12 @@
 				<key>expanded</key>
 				<true/>
 				<key>name</key>
-				<string>El_Corte_Inglés_logo</string>
+				<string>El_Corte_Ingles_logo</string>
 				<key>oid</key>
 				<string>15</string>
 				<key>resources</key>
 				<array>
-					<string>El_Corte_Inglés_logo.svg.png</string>
+					<string>El_Corte_Ingles_logo.svg.png</string>
 				</array>
 			</dict>
 			<dict>
@@ -557,45 +595,14 @@
 				<string>FileResource</string>
 			</dict>
 			<dict>
-				<key>fileModificationDate</key>
-				<date>2015-05-12T08:33:20Z</date>
 				<key>fileSize</key>
-				<integer>59942</integer>
+				<integer>29423</integer>
 				<key>md5</key>
-				<string>2C74CC1E014CE9C304FBA0C7F9F9890B</string>
+				<string>183F93DBCC8DFBE82ACDDE61E6F67CAE</string>
 				<key>notifyOnBookmarkChange</key>
 				<true/>
-				<key>originalPath</key>
-				<string>/Users/alumnos/Desktop/animacion/unidad4/El_Corte_Inglés_logo.svg.png</string>
 				<key>resourceName</key>
-				<string>El_Corte_Inglés_logo.svg.png</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9vawQDAAAAAAQQMAAAALZxmHcwO8W+24MDZzRJnlHU
-				SHAo5LYpKv5X9TxqIDpDDAIAAAUAAAABAQAAVXNlcnMA
-				AAAHAAAAAQEAAGFsdW1ub3MABwAAAAEBAABEZXNrdG9w
-				AAkAAAABAQAAYW5pbWFjaW9uAAAABwAAAAEBAAB1bmlk
-				YWQ0AB4AAAABAQAARWxfQ29ydGVfSW5nbGXMgXNfbG9n
-				by5zdmcucG5nAAAYAAAAAQYAAAQAAAAUAAAAJAAAADQA
-				AABIAAAAWAAAAAgAAAAEAwAA+WYCAAAAAAAIAAAABAMA
-				AEc2CQAAAAAACAAAAAQDAADENgkAAAAAAAgAAAAEAwAA
-				sRtQAAAAAAAIAAAABAMAADorUAAAAAAACAAAAAQDAACq
-				LFAAAAAAABgAAAABBgAAoAAAALAAAADAAAAA0AAAAOAA
-				AADwAAAACAAAAAAEAABBuwHyUAAAABgAAAABAgAAAQAA
-				AAAAAAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAAEAAAA
-				AAAAAAQAAAADAwAA9QEAAAwAAAABAQAATWFjaW50b3No
-				IEhECAAAAAQDAAAAgJyt6AAAAAgAAAAABAAAQblescYA
-				AAAkAAAAAQEAAEZDOTk3OTI0LUYxNTctM0I0OS1BRTdD
-				LUMxQjZDNkVEMkU5RBgAAAABAgAAgQAAAAEACADvFwAA
-				AQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAAAE
-				AAAAAwMAAAAJACjAAAAA/v///wEAAAAAAAAADwAAAAQQ
-				AACAAAAAAAAAAAUQAAAAAQAAAAAAABAQAAAwAQAAAAAA
-				AEAQAAAgAQAAAAAAAAIgAADsAQAAAAAAABAgAABsAQAA
-				AAAAABEgAACgAQAAAAAAABIgAACAAQAAAAAAABMgAACQ
-				AQAAAAAAACAgAADMAQAAAAAAADAgAAD4AQAAAAAAAAHA
-				AABQAQAAAAAAABHAAAAUAAAAAAAAABLAAABgAQAAAAAA
-				ABDQAAAAAgAAAAAAAA==
-				</data>
+				<string>Pasted.png</string>
 				<key>shouldAutoResize</key>
 				<true/>
 				<key>shouldIncludeInDocumentHeadHTML</key>
@@ -608,14 +615,46 @@
 				<string>FileResource</string>
 			</dict>
 			<dict>
+				<key>fileModificationDate</key>
+				<date>2015-06-02T07:57:49Z</date>
 				<key>fileSize</key>
-				<integer>29423</integer>
+				<integer>59942</integer>
 				<key>md5</key>
-				<string>183F93DBCC8DFBE82ACDDE61E6F67CAE</string>
+				<string>2C74CC1E014CE9C304FBA0C7F9F9890B</string>
 				<key>notifyOnBookmarkChange</key>
 				<true/>
+				<key>originalPath</key>
+				<string>/Users/alumnos/Desktop/animacion/unidad4/slideRobot/El_Corte_Ingles_logo.svg.png</string>
 				<key>resourceName</key>
-				<string>Pasted.png</string>
+				<string>El_Corte_Ingles_logo.svg.png</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9vaywDAAAAAAQQMAAAAFvZFe5iVOHyJKJn4uNDLoZY
+				8OqHFdVvBqmMW0xGcjNuNAIAAAUAAAABAQAAVXNlcnMA
+				AAAHAAAAAQEAAGFsdW1ub3MABwAAAAEBAABEZXNrdG9w
+				AAkAAAABAQAAYW5pbWFjaW9uAAAABwAAAAEBAAB1bmlk
+				YWQ0AAoAAAABAQAAc2xpZGVSb2JvdAAAHAAAAAEBAABF
+				bF9Db3J0ZV9JbmdsZXNfbG9nby5zdmcucG5nHAAAAAEG
+				AAAEAAAAFAAAACQAAAA0AAAASAAAAFgAAABsAAAACAAA
+				AAQDAAD5ZgIAAAAAAAgAAAAEAwAARzYJAAAAAAAIAAAA
+				BAMAAMQ2CQAAAAAACAAAAAQDAABlH1QAAAAAAAgAAAAE
+				AwAAzx9UAAAAAAAIAAAABAMAAOcfVAAAAAAACAAAAAQD
+				AADpH1QAAAAAABwAAAABBgAAtAAAAMQAAADUAAAA5AAA
+				APQAAAAEAQAAFAEAAAgAAAAABAAAQbsdmX0AAAAYAAAA
+				AQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAE
+				AwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1h
+				Y2ludG9zaCBIRAgAAAAEAwAAAICcregAAAAIAAAAAAQA
+				AEG5XrHGAAAAJAAAAAEBAABGQzk5NzkyNC1GMTU3LTNC
+				NDktQUU3Qy1DMUI2QzZFRDJFOUQYAAAAAQIAAIEAAAAB
+				AAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAAA
+				AAABBQAABAAAAAMDAAAACQAowAAAAP7///8BAAAAAAAA
+				AA8AAAAEEAAAkAAAAAAAAAAFEAAAJAEAAAAAAAAQEAAA
+				WAEAAAAAAABAEAAASAEAAAAAAAACIAAAFAIAAAAAAAAQ
+				IAAAlAEAAAAAAAARIAAAyAEAAAAAAAASIAAAqAEAAAAA
+				AAATIAAAuAEAAAAAAAAgIAAA9AEAAAAAAAAwIAAAIAIA
+				AAAAAAABwAAAeAEAAAAAAAARwAAAFAAAAAAAAAASwAAA
+				iAEAAAAAAAAQ0AAAKAIAAAAAAAA=
+				</data>
 				<key>shouldAutoResize</key>
 				<true/>
 				<key>shouldIncludeInDocumentHeadHTML</key>
@@ -680,27 +719,6 @@
 					<string>2</string>
 					<key>scrollViewOffset</key>
 					<string>{0, 1}</string>
-					<key>userGuides</key>
-					<array>
-						<dict>
-							<key>offset</key>
-							<real>113</real>
-							<key>orientation</key>
-							<string>horizontal</string>
-						</dict>
-						<dict>
-							<key>offset</key>
-							<real>388</real>
-							<key>orientation</key>
-							<string>vertical</string>
-						</dict>
-						<dict>
-							<key>offset</key>
-							<real>793</real>
-							<key>orientation</key>
-							<string>vertical</string>
-						</dict>
-					</array>
 				</dict>
 			</array>
 		</dict>
@@ -727,7 +745,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1186, 618}</string>
+					<string>{1135, 619}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -752,7 +770,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>36</string>
 					<key>scrollViewOffset</key>
-					<string>{239, 4.42578125}</string>
+					<string>{459, 0}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -779,7 +797,7 @@
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>A502C2E2-C72B-4A1A-B839-F1A086187E18-404-00000AAA4EE7FEC5</string>
+			<string>C16847D7-C6D5-4BF5-A563-62A651A1D89F-488-00000575D70A53AA</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -796,9 +814,9 @@
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>133px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -916,18 +934,18 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>133px</string>
 						</dict>
 					</array>
 					<key>13</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>159px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1045,18 +1063,18 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>159px</string>
 						</dict>
 					</array>
 					<key>14</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>44px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1192,9 +1210,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>44px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>16</key>
@@ -1324,9 +1342,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1420,12 +1438,6 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>9</string>
@@ -1435,6 +1447,12 @@
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>337px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1456,9 +1474,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>18</key>
@@ -1471,9 +1489,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1573,15 +1591,15 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>411px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>411px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1603,9 +1621,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>20</key>
@@ -1687,9 +1705,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1765,9 +1783,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1777,9 +1795,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1801,9 +1819,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>32</key>
@@ -2071,9 +2089,9 @@
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>44px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2209,18 +2227,18 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>44px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>7</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>44px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2356,18 +2374,18 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>44px</string>
 						</dict>
 					</array>
 					<key>9</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>44px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2503,9 +2521,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>44px</string>
+							<string>div</string>
 						</dict>
 					</array>
 				</dict>
@@ -4971,7 +4989,7 @@
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>A502C2E2-C72B-4A1A-B839-F1A086187E18-404-00000AAA4EE7FEC5</string>
+			<string>C16847D7-C6D5-4BF5-A563-62A651A1D89F-488-00000575D70A53AA</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -4988,15 +5006,15 @@
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
 							<string>Pasted</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5105,9 +5123,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5249,9 +5267,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>50</key>
@@ -5525,9 +5543,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5609,9 +5627,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5621,9 +5639,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>4</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5645,9 +5663,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>52</key>
@@ -5774,6 +5792,61 @@
 				<string>Símbolo de escena 2</string>
 				<key>oid</key>
 				<string>36</string>
+				<key>onSceneDragActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyDownActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyPressActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyUpActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneLoadActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeDownActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeLeftActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeRightActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeUpActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneTimelineCompleteActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneUnloadActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
 				<key>onTopDuringSceneTransition</key>
 				<true/>
 				<key>properties</key>
@@ -5875,7 +5948,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>503F8C8A-5ECC-4B6A-AE38-006073A4E289-404-00000CB792733ABA</string>
+									<string>0DA27AE0-5364-492C-9CD3-BC565E8603F0-488-0000057570B5ADEB</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>42</string>
@@ -5897,7 +5970,7 @@
 								<key>uuid</key>
 								<string>BBB74C3B-6BD9-4172-9780-25638C820EDB-404-00000B0F69E0B3F4</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -5942,7 +6015,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>503F8C8A-5ECC-4B6A-AE38-006073A4E289-404-00000CB792733ABA</string>
+									<string>0DA27AE0-5364-492C-9CD3-BC565E8603F0-488-0000057570B5ADEB</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>42</string>
@@ -6009,7 +6082,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>503F8C8A-5ECC-4B6A-AE38-006073A4E289-404-00000CB792733ABA</string>
+									<string>0DA27AE0-5364-492C-9CD3-BC565E8603F0-488-0000057570B5ADEB</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>42</string>
@@ -6060,7 +6133,7 @@
 								<key>uuid</key>
 								<string>19A4A22F-4213-41C0-8D64-08857697AE22-404-00000AE81FB5AF1E</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -6096,7 +6169,7 @@
 								<key>uuid</key>
 								<string>B80E7077-7ACB-44EE-A86D-FEA45AC6E6D3-404-00000B83F8AB4683</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -6134,7 +6207,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>3B4033EA-C514-440B-AEB8-B325A82296FD-404-00000CB7927355E7</string>
+									<string>EE938997-B20B-4782-A6EA-ECFF541B7778-488-0000057570B869C9</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>42</string>
@@ -6156,7 +6229,7 @@
 								<key>uuid</key>
 								<string>ABC1CAA5-F509-4996-BD72-CE31CAF0438C-404-00000B0F69EA9C51</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -6194,7 +6267,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>3B4033EA-C514-440B-AEB8-B325A82296FD-404-00000CB7927355E7</string>
+									<string>EE938997-B20B-4782-A6EA-ECFF541B7778-488-0000057570B869C9</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>42</string>
@@ -6216,7 +6289,7 @@
 								<key>uuid</key>
 								<string>DDEB6018-4927-471A-B913-C946772739D1-404-00000B0F80D9CA37</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -6254,7 +6327,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>3B4033EA-C514-440B-AEB8-B325A82296FD-404-00000CB7927355E7</string>
+									<string>EE938997-B20B-4782-A6EA-ECFF541B7778-488-0000057570B869C9</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>42</string>
@@ -6305,7 +6378,7 @@
 								<key>uuid</key>
 								<string>952DBEBD-3FB6-4949-AE73-7C406B77A520-404-00000B83F8B63ECD</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -6413,7 +6486,7 @@
 								<key>uuid</key>
 								<string>685F4FF5-9F5D-4291-A299-3596E2418CCF-404-00000BAA42A6E56A</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>5</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -6449,7 +6522,7 @@
 								<key>uuid</key>
 								<string>2A1ACE2C-7964-40B5-8890-A131A6790F4F-404-00000BAA429FB5B0</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>5</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -6543,7 +6616,7 @@
 								<key>uuid</key>
 								<string>05B02138-F612-419E-B8B6-1CC3A7239F50-404-00000BA477EB1B5D</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -6601,7 +6674,7 @@
 								<key>uuid</key>
 								<string>F851465B-84D6-4011-9BC9-07F13624F883-404-00000BAA42C41B70</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>6</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -6630,7 +6703,7 @@
 								<key>uuid</key>
 								<string>15D369A3-2882-4845-8832-ECF93B259A10-404-00000BAA42BBC0E7</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>6</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
