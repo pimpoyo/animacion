@@ -1,46 +1,65 @@
 <html>
-	
 	<head>
 		<meta charset="UTF-8">
 		<title>base html</title>
-		
-	</head>
 		<style>
-				
-				.contenedor {
-					width: 600px;
-				    height: 400px;
-					margin: 100px;
-				
-				
+			.contenedor {
+				width: 600px;
+				height: 400px;
+				margin: 100px;
+				perspective: 1600px;
+				-webkit-perspective: 1600px;
+				-moz-perspective: 1600px;
+			}
+								
+			.bichos img,h1 {
+				width: 600px;
+				height: 400px;
+				align-content: center;
+				animation: giro 8s linear infinite;
+				-moz-animation: giro 8s linear infinite;
+				-webkit-animation: giro 8s linear infinite;
+			}
 
+			@keyframes giro {
+				from {
+					transform: rotateY(0deg);
 				}
-									
-				.bichos img,h1 {
-
-				    width: 600px;
-				    height: 400px;
-					align-content: center;
 			
-			
-			
+				to {
+					transform: rotateY(360deg);
 				}
-				
-				
+			}
 
-					
+			@-moz-keyframes giro {
+				from {
+					-moz-transform: rotateY(0deg);
+				}
+			
+				to {
+					-moz-transform: rotateY(360deg);
+				}
+			}
+
+			@-webkit-keyframes giro {
+				from {
+					-webkit-transform: rotateY(0deg);
+				}
+			
+				to {
+					-webkit-transform: rotateY(360deg);
+				}
+			}
+
+
 		</style>
-		
-	
+	</head>
 	<body>
-
-<div class="contenedor"><div class="bichos"><img  src="bicho1.png"></div><h1>FOTO DE BICHO</h1></div>
-
+		<div class="contenedor"><div class="bichos"><img  src="bicho1.png"></div><h1>FOTO DE BICHO</h1></div>
 		<script>
 		// Aquí escribimos las instrucciones de código
 		
 	
 		</script>
 	</body>
-
 </html>
